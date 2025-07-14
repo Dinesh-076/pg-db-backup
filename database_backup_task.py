@@ -40,7 +40,7 @@ def backup_selected_database(databases):
 
 
 def execute_pg_dump(database, filename):
-    backup_dir = "backup_files"
+    backup_dir = r"C:\Users\Dineshpk\OneDrive - METRIQE SOLUTIONS PRIVATE LIMITED\Documents\db-backup"
     os.makedirs(backup_dir, exist_ok=True)
     filepath = os.path.join(backup_dir, filename)
     pg_dump_path = r"C:\Program Files\PostgreSQL\17\bin\pg_dump.exe"
