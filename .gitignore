@@ -1,0 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment folders
+venv/
+env/
+
+# Ignore Django secret keys
+*.sqlite3
+*.log
+*.pem
+*.env
+
+# Ignore migrations cache
+db.sqlite3
+*/migrations/*.pyc
+*/migrations/*.py
+
+# Ignore VSCode settings (if using VSCode)
+.vscode/
